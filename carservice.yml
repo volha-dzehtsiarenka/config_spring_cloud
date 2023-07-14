@@ -1,7 +1,4 @@
 spring:
-  liquibase:
-    enabled: true
-    change-log: classpath:db/changelog/db.changelog.yml
   jpa:
     properties:
       javax.persistence.validation.mode: none
